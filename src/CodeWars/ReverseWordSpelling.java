@@ -5,7 +5,7 @@ import java.io.*;
 
 
 
-public class kata
+public class ReverseWordSpelling
 {
     public static String reverseWords(String original)
     {

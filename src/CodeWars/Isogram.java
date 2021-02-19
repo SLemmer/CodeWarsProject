@@ -1,9 +1,9 @@
 package CodeWars;
 
-public class isogram {
+public class Isogram {
 
     public static boolean  isIsogram(String str) {
-    // test to see if a word is an isogram, that is, it doesn't return repeat any letter regradless of case
+    // test to see if a word is an Isogram, that is, it doesn't return repeat any letter regradless of case
 
     int stringLength = str.length();
     //To turn the cord into an array of type char
