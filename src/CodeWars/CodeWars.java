@@ -34,7 +34,23 @@ public class CodeWars {
         System.out.println("If you rent the car for " + d +" days");
         System.out.println("The total cost of rental will be " +CostCalulator.rentalCarCost(d));
 
+        System.out.println();
+        System.out.println("Codewars #4 - Stanton Number: ");
+        int[] arr ={1,3,1,4,5,1,2,3,4,5,1,1,3,1,4,6,6,2,3,5,6};
+        System.out.println("The stanton number of the input array is:");
+        System.out.println("Stanton = " + Stanton.stantonMeasure(arr));
 
+        System.out.println();
+        System.out.println("Codewars #5 - Spooner: ");
+        String words ="Hucky Buddy";
+        System.out.println("The Spooner of " + words + " is:");
+        System.out.println(Spooner.spoonerize(words));
+
+        System.out.println();
+        System.out.println("Codewars #6 - Highest and Lowest: ");
+        String numbersInString ="98 2 4 0 -3 58 1 8 4 52";
+        System.out.println("The highest and lowest numbers in this STRING are:");
+        System.out.println(HighestAndLowest.highAndLow(numbersInString));
 
     }
 }
